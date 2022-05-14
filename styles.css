@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    color: #777;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 1em;
+    color: grey;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .40);
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+.main-nav li{
+    padding: 0.5%;
+}
+.main-header{
+    background-color: rgba(0, 0, 0, .6);
+    background: linear-gradient(to bottom right, #EAA4BA, #D5BDBA); 
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+.group-name-large{
+    text-align: center;
+    margin: 0;
+    font-size: 5em;
+    font-family: 'Cormorant Garamond', serif;
+    color: rgba(106, 78, 101, 0.76);
+}
+
+.content-section{
+    margin: 1em;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: 'Lora', serif;
+    font-weight: normal;
+    color: #777;
+    text-align: center;
+    font-size: 2.0em;
+}
+
+.about-image{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 10x;
+    border-radius: 50%
+}
+
+.main-footer{
+    background-color: rgba(242, 215, 229, 0.76);
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    display: inline-block;
+    padding: 0.5em;
+    text-align: end;
+}
+
+.footer-nav img{
+    width: 50px;
+    height: 50px;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .5em .5em;
+    cursor: pointer;
+}
